@@ -39,7 +39,6 @@ else:
                     break
             if Found == False:
                 print("The word is invalid")
-                print("1")
                 break
             elif j == Word[-1] and Counter >= len(Word) - 1 and poz in Final:
                 print("The word is valid")
