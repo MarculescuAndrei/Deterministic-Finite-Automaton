@@ -40,10 +40,10 @@ else:
             if Found == False:
                 print("The word is invalid")
                 break
-            elif j == Word[-1] and Counter >= len(Word) - 1 and poz in Final:
+            elif j == Word[-1] and Counter > len(Word) - 1 and poz in Final:
                 print("The word is valid")
                 break
-            elif j == Word[-1] and Counter >= len(Word) - 1 and poz not in Final:
+            elif j == Word[-1] and Counter > len(Word) - 1 and poz not in Final:
                 print("The word is invalid")
                 break
 print(Adjacency)
